@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color: #000000;}
+
+.navbg{
+	background: rgba(0,0,0,.6);
+	position: fixed;
+	padding-bottom: 15px;
+	z-index: 1000;
+		
+}
+.bannerbg{
+	height: 100vh;
+	background-image:url(../images/webhome1.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+.logo{
+padding-top: 25px;
+	width:6%; 
+}
+.toggle{display: none;}
+.menu{
+	float: right!important;
+	text-align: right;
+	padding-top: 50px;
+	font-size: 16px;
+	font-family: "headfont";
+	font-weight: normal;
+}
+.sub-menu{display: none;}
+.menu a{
+	color: #fff;
+	padding: 20px;
+}
+.menu a:hover{color: #BEC073;
+	
+}
+.creative h1{color: #FFFFFF;
+	margin-top: 190px;
+	font-family: "headfont";
+	font-weight: normal;
+	font-size: 75px;
+	letter-spacing: 2px;
+
+}
+.creative h4{color: #FFFFFF;
+	margin-top: 40px;
+	font-family: "headfont";
+	font-weight: normal;
+	font-size: 20px;
+    letter-spacing: 1px;
+	word-spacing: 5px;
+	line-height: 30px;
+}
+.works h1{color: #FFFFFF;
+	text-align: center;
+    font-family: "headfont";
+	font-weight: normal;
+    letter-spacing: 2px;
+	word-spacing: 5px;
+    padding-top: 100px;
+}
+
+.works h4{color: #FFFFFF;text-align:
+	center;padding-top: 5px;
+    font-family: "headfont";
+	font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+	word-spacing: 5px;}
+
+.works h3{color: #FFFFFF;
+	padding-top:10px;
+	padding-left: 75px;
+    font-family: "headfont";
+	font-weight: normal;
+	font-size: 20px;}
+
+.workart{padding: 25px;}
+.works{padding:20px 80px;  }
+
+.workart img{
+	border: 2px solid #fff;
+	border-radius:
+    10px; transition: .6s;
+
+}
+.workart img:hover{
+	transform: scale(1.05);
+}
+.gallery h1{color: #FFFFFF;
+	text-align: center;
+    font-family: "headfont";
+	font-weight: normal;
+	margin-top: 10px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	padding-top: 100px;
+}
+.gallery1{padding: 10px;}
+.gallery{padding:10px 120px;
+	padding-bottom: 70px; }
+
+.gallery1 img{
+	border: 2px solid #fff;
+	border-radius:10px;
+	transition: .6s;
+	}
+.gallery1 img:hover{
+	transform: scale(1.05);}
+
+.aboutus h1{color: #FFFFFF;
+	text-align: center;
+    font-family: "headfont";
+	font-weight: normal;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+    padding-top: 100px;}
+	
+
+.profilepic { padding: inherit;}
+
+.aboutus {background-color:#212121;
+	height:800px;
+	padding-top: 30px;
+}
+
+.aboutus p {padding-top:100px; 
+	padding-left: 100px; 
+	color: #FFFFFF;
+	text-align:left;
+	
+	font-family:"headfont";
+	font-weight: normal;
+	font-size: 20px;
+    letter-spacing: 1px;
+	word-spacing: 5px;
+    line-height: 50px;}
+
+.aboutus h2 {font-family:"headfont";
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 38px;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    padding-left:50px;}
+
+.contactus
+{background-image:
+	url(../images/contactimage.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	height: 600px;
+    margin-top: 40px;
+	position: relative;
+}
+.contactus h1
+    {font-family:"headfont";
+	color: #FFFFFF;
+	font-weight: normal;
+    text-align: center;
+    padding-top:30px;
+    letter-spacing: 2px;
+	word-spacing: 5px;}
+
+.contactus h4{font-family:"headfont";
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+    line-height: 30px;
+	padding-top:10px;
+	
+}
+.logo2 {
+	width: 250px;
+	padding-top: 30px;
+
+
+}
+.logo3 {width: 150px;}
+
+.contactus h2 {font-family:"headfont";
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+    line-height: 30px;
+	padding-top:5px;
+	
+	}
+.icons img{
+	width:30px;
+	padding-top: 5px;
+	padding-right:10px;
+	
+}
+.contactus h3{
+    font-family:"headfont";
+	color: #000000;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+    line-height: 30px;
+    text-align: center;
+    background:rgba(255,255,255,0.37);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	
+}
+.formarea{
+	float: right;
+	
+	padding-top: 70px;
+	padding-left: 100px;
+}
+
+
+.formarea form input{
+	background: rgba(255,255,255,0.37);
+	color:#fff;
+	width: 70%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	
+}
+
+.formarea form input::placeholder{
+	color: #FFFFFF;
+}
+.formarea form textarea::placeholder{
+	color:#FFFFFF;
+}
+.formarea form textarea{
+	background: rgba(255,255,255,0.37);
+	color:#fff;
+	padding: 10px;
+	width: 70%;
+	height: 150px;
+	resize: none;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.formarea form button{
+	background: rgba(255,255,255,0.37);
+	color:#fff;
+	width: 70%;
+	padding: 10px 25px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+
+
